@@ -1,6 +1,6 @@
 package com.qa.opencart.pages;
 
-public class NaveenPage {
+public class TestDemo {
 
 	public static void main(String[] args) {
 		
