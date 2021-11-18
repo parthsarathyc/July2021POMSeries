@@ -44,7 +44,7 @@ public class LoginPage {
 	}
 	@Step("login with username : {0} and password : {1} ")
 	public AccountsPage doLogin(String un, String pwd) {// user name willd password will be given 0 and 1 respectively 
-		
+		System.out.println("creds" + un);
 		elementUtil.dosendkey(emailId, un);
 		elementUtil.dosendkey(password, pwd);
 		elementUtil.doClick(loginButton);
